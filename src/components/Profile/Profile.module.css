@@ -57,4 +57,11 @@
 
 .Label {
   display: block;
+  margin-bottom: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.Quantity {
+  font-weight: 700;
+  font-size: 20px;
 }
