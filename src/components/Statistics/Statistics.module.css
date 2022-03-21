@@ -1,0 +1,44 @@
+.Statistics {
+  display: block;
+  width: 300px;
+  margin: 30px auto 30px auto;
+  padding-bottom: 0;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.StatList {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.Title {
+  font-size: 30px;
+}
+
+.Item {
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 5px;
+}
+
+.Label {
+  display: block;
+  color: white;
+  margin: 0;
+}
+
+.Percentage {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
