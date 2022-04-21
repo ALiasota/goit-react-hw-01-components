@@ -1,5 +1,5 @@
 import styles from './Statistics.module.css';
-import { StatisticTitle } from './StatisticTitle';
+
 import { StatisticItem } from './StatisticItem';
 import propTypes from 'prop-types';
 
@@ -8,12 +8,12 @@ export const Statistics = ({title, data}) => {
     return(
         <section className={styles.Statistics}>
             {title &&(
-                <StatisticTitle title={title} styles={styles} />
+                <h2 className={styles.Title}>{title}</h2>
             )}
             
             <ul className={styles.StatList}>
                 {data.map((item)=>   
-                    <StatisticItem key={item.id} item={item} styles={styles}/>
+                    <StatisticItem key={item.id} item={item} />
                 
                 )}
             
