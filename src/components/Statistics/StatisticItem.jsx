@@ -10,9 +10,7 @@ const bg = () => {
         return color;
     }
 
-export const StatisticItem = ({item: {label, percentage}}) => {
-    
-    
+export const StatisticItem = ({label, percentage}) => {    
     return(
         <li className={styles.Item} style={{backgroundColor:bg()}}>
         <span className={styles.Label}>{label}</span>
@@ -21,11 +19,9 @@ export const StatisticItem = ({item: {label, percentage}}) => {
     )
 }
 
-StatisticItem.propTypes = {
-    item: propTypes.shape({
-            label: propTypes.string,
-            percentage: propTypes.number  
-    }).isRequired
+StatisticItem.propTypes = {   
+            label: propTypes.string.isRequired,
+            percentage: propTypes.number.isRequired   
        
   }
         
